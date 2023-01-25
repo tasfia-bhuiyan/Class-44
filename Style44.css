@@ -1,0 +1,25 @@
+.pagination{
+    color: #000;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px 0 10px 0;
+    transition: background-color 1s; 
+}
+.pagination a.active{
+    background-color: rgb(4, 17, 95);
+    color: #fff;
+}
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+}
+
+.column{
+    column-count: 3;
+    column-gap: 40px;
+    text-align: justify;
+    column-rule: 3px solid rgb(214, 55, 27);
+}
+h1{
+    column-span: all;
+}
